@@ -14,8 +14,30 @@
     <div class="container">
         <section class="comingsoon">
             <h1 class="comingsoon_header-big">Hello There!</h1>
-            <h3 class="comingsoon_header-small">Coming soon...</h3>
-            <a class="email" href="mailto: Glenn@itsGlenn.com? subject text">Contact Me</a>
+            <h3 class="comingsoon_header-small">Coming soon..</h3>
+
+            <form action="#" class="form">
+                <h1>Contact Me</h1>
+                <div class="form__group">
+                    <label for="name" class="form__label">Full Name</label>
+                    <input type="text" class="form__input" id="name" required />
+                </div>
+
+                <div class="form__group">
+                    <label for="email" class="form__label">Email</label>
+                    <input type="email" class="form__input" placeholder="Email" id="email" required />
+                </div>
+
+                <div class="form__group">
+                    <label for="message">Subject</label>
+                    <input type="textarea" class="form__label" placeholder="Leave a message" style="height: 100px" />
+                </div>
+
+                <div class="form__group">
+                    <button class="btn btn--orange">Submit &rarr;</button>
+                </div>
+
+            </form>
         </section>
     </div>
 </body>
