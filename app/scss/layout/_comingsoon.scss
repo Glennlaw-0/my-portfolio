@@ -1,12 +1,14 @@
 .container {
-  margin: 400px auto;
+  margin: 300px auto;
   width: 100vh;
   background-color: #000;
 }
 
 .comingsoon {
+  text-align: center;
   width: 70%;
-  color: #161426;
+  color: #fff;
+  transform: translateX(40%, -40%);
 }
 
 .email:link,

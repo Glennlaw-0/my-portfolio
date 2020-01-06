@@ -11,7 +11,7 @@ const uglify = require('gulp-uglify');
 
 // File path variables
 const files = {
-  scssPath: 'app/scss/main.scss',
+  scssPath: 'app/scss/**/*.scss',
   jsPath: 'app/js/**/*.js',
 };
 
