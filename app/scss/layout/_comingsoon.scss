@@ -1,13 +1,14 @@
 .container {
   margin: 100px auto;
   width: 100vh;
-  background-color: #000;
 }
 
 .comingsoon {
-  padding: 20px;
-  height: 100%;
-  border: 2px solid red;
-  color: #fff;
   text-align: center;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  color: $secondary-color;
+  background-color: #fff;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.4);
 }
