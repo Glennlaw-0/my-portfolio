@@ -1,19 +1,13 @@
 .container {
-  margin: 300px auto;
+  margin: 100px auto;
   width: 100vh;
   background-color: #000;
 }
 
 .comingsoon {
-  text-align: center;
-  width: 70%;
+  padding: 20px;
+  height: 100%;
+  border: 2px solid red;
   color: #fff;
-  transform: translateX(40%, -40%);
-}
-
-.email:link,
-.email:active {
-  text-decoration: none;
-  color: #f24c27;
-  font-size: 2rem;
+  text-align: center;
 }

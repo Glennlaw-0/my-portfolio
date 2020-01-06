@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="/dist/main.css">
+    <link rel="stylesheet" href="/dist/main.css?cb=1578327864706">
 </head>
 
 <body>
@@ -16,29 +16,31 @@
             <h1 class="comingsoon_header-big">Hello There!</h1>
             <h3 class="comingsoon_header-small">Coming soon..</h3>
 
+
             <form action="#" class="form">
                 <h1>Contact Me</h1>
                 <div class="form__group">
-                    <label for="name" class="form__label">Full Name</label>
-                    <input type="text" class="form__input" id="name" required />
+                    <label for="name" class="form__label">Full Name: </label>
+                    <input type="text" class="form__input" placeholder="Name" id="name" required />
                 </div>
 
                 <div class="form__group">
-                    <label for="email" class="form__label">Email</label>
+                    <label for="email" class="form__label">Email: </label>
                     <input type="email" class="form__input" placeholder="Email" id="email" required />
                 </div>
 
                 <div class="form__group">
-                    <label for="message">Subject</label>
-                    <input type="textarea" class="form__label" placeholder="Leave a message" style="height: 100px" />
+                    <label class="form__label" for="message">Subject: </label>
+                    <textarea class="form__textarea" rows=" 5" cols="33"> Send a message...</textarea>
                 </div>
 
                 <div class="form__group">
-                    <button class="btn btn--orange">Submit &rarr;</button>
+                    <button class="btn btn--orange">Send Message &rarr;</button>
                 </div>
 
-            </form>
         </section>
+
+        </form>
     </div>
 </body>
 
