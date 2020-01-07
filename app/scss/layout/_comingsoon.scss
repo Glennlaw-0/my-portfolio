@@ -1,8 +1,16 @@
 .container {
-  height: 60vh;
+  height: 70vh;
   width: 100vw;
   max-width: 100%;
   position: relative;
+
+  // @include respond(big-desktopuhd) {
+  //   height: 90vh;
+  // }
+
+  @include respond(small-phone) {
+    height: 80vh;
+  }
 }
 
 .comingsoon {
@@ -17,6 +25,10 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
     0 6px 6px rgba(0, 0, 0, 0.23);
 
+  @include respond(big-desktopuhd) {
+    height: 100%;
+  }
+
   @include respond(tab-port) {
     width: 54%;
   }
@@ -26,6 +38,7 @@
   }
 
   @include respond(small-phone) {
+    margin-top: 0px;
     width: 90%;
   }
 }

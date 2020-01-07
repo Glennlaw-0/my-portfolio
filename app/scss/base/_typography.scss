@@ -1,6 +1,26 @@
 html {
   line-height: 1;
   font-size: 62.5%;
+
+  @include respond(big-desktopuhd) {
+    font-size: 180.5%; //1rem = 12px, 12/16 = 75%
+  } //>1800?
+
+  @include respond(tab-land) {
+    font-size: 56.25%; //1rem = 9px, 9/16 = 56.25%
+  } //width <1200?
+
+  @include respond(tab-port) {
+    font-size: 50%; //1rem = 8px, 8/16 = 50%
+  } //width <900px?
+
+  @include respond(phone) {
+    font-size: 55%; //1rem = 7.5px, 7.5/16 = 46.875
+  } //Width <500px?
+
+  @include respond(small-phone) {
+    font-size: 47%; //1rem = 5px, 5/16 = 31.25%
+  } //width <415px?
 }
 
 body {

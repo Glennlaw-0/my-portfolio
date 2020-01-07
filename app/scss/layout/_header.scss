@@ -20,6 +20,10 @@
       font-size: 3rem;
     }
   }
+
+  @include respond(small-phone) {
+    margin-bottom: 0;
+  }
 }
 
 .nav {
