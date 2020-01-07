@@ -1,12 +1,13 @@
 .container {
   margin-top: 100px;
   width: 100vw;
+  max-width: 100%;
 }
 
 .comingsoon {
   margin: 0 auto;
   text-align: center;
-  width: 80%;
+  width: 50%;
   border-radius: 10px;
   color: $tertiary-color;
   background-color: #fff;
