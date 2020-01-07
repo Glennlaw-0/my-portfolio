@@ -1,10 +1,14 @@
 // Abstracts
 @import 'app/scss/abstracts/variables';
 
+// Base
 @import 'app/scss/base/base';
 @import 'app/scss/base/typography';
 
+// Components
 @import 'app/scss/components/button';
 @import 'app/scss/components/form';
 
+//Layout
 @import 'app/scss/layout/comingsoon';
+@import 'app/scss/layout/header';

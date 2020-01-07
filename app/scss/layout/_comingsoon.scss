@@ -1,14 +1,14 @@
 .container {
-  margin: 100px auto;
-  width: 100vh;
+  margin-top: 100px;
+  width: 100vw;
 }
 
 .comingsoon {
+  margin: 0 auto;
   text-align: center;
-  padding: 20px;
   width: 80%;
   border-radius: 10px;
   color: $tertiary-color;
   background-color: #fff;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.1);
 }
