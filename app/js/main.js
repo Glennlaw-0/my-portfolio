@@ -1,1 +1,0 @@
-var jamRock = 10;

@@ -1,16 +1,27 @@
 .container {
+  height: 60vh;
   width: 100vw;
   max-width: 100%;
   position: relative;
 }
 
 .comingsoon {
-  margin: 0px auto;
+  @include abscenter;
   text-align: center;
-  width: 30%;
+  margin-top: 20px;
+  height: 90%;
+  width: 40%;
   border-radius: 10px;
   color: $tertiary-color;
   background-color: #fff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
     0 6px 6px rgba(0, 0, 0, 0.23);
+
+  @include respond(tab-port) {
+    width: 64%;
+  }
+
+  @include respond(small-phone) {
+    width: 94%;
+  }
 }
