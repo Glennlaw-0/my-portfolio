@@ -18,10 +18,14 @@
     0 6px 6px rgba(0, 0, 0, 0.23);
 
   @include respond(tab-port) {
+    width: 54%;
+  }
+
+  @include respond(phone) {
     width: 64%;
   }
 
   @include respond(small-phone) {
-    width: 94%;
+    width: 90%;
   }
 }
