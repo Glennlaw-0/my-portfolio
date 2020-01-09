@@ -4,6 +4,10 @@ html {
 
   @include respond(big-desktopuhd) {
     font-size: 180.5%; //1rem = 12px, 12/16 = 75%
+  } //2560?
+
+  @include respond(big-desktop) {
+    font-size: 75%; //1rem = 12px, 12/16 = 75%
   } //>1800?
 
   @include respond(tab-land) {

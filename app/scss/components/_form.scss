@@ -1,4 +1,5 @@
 .form {
+  font-size: $default-font-size;
   margin-top: 50px;
   height: 100%;
 
@@ -12,7 +13,6 @@
   }
 
   &__input {
-    font-weight: bold;
     background-color: #d9d8da;
     width: 70%;
     padding: 1rem 2rem;

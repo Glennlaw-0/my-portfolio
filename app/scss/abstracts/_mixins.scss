@@ -64,13 +64,13 @@ Order to do MediaQueries:
   }
 
   @if $breakpoint == big-desktop {
-    @media only screen and (min-width: 90em) {
+    @media only screen and (max-width: 90em) {
       @content;
     } //1800px
   }
 
   @if $breakpoint == big-desktopuhd {
-    @media only screen and (min-width: 90em) {
+    @media only screen and (max-width: 90em) {
       @content;
     } //2560px
   }
